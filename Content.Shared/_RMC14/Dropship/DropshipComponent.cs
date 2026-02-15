@@ -27,13 +27,13 @@ public sealed partial class DropshipComponent : Component
     public SoundSpecifier LocalHijackSound = new SoundPathSpecifier("/Audio/_RMC14/Machines/Shuttle/queen_alarm.ogg");
 
     [DataField, AutoNetworkedField]
-    public SoundSpecifier MarineHijackSound = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/hijack.ogg", AudioParams.Default.WithVolume(-5));
+    public SoundSpecifier MarineHijackSound = new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/hijack.ogg", AudioParams.Default.WithVolume(-5));
 
     [DataField, AutoNetworkedField]
     public SoundSpecifier GeneralQuartersSound = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/GQfullcall.ogg");
 
     [DataField, AutoNetworkedField]
-    public SoundSpecifier UnidentifledlifesignsSound = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/unidentified_lifesigns.ogg");
+    public SoundSpecifier UnidentifledlifesignsSound = new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/unidentified_lifesigns.ogg");
 
     [DataField, AutoNetworkedField]
     public TimeSpan LockCooldown = TimeSpan.FromSeconds(1);
@@ -57,7 +57,7 @@ public sealed partial class DropshipComponent : Component
     public int FireRange = 11;
 
     [DataField, AutoNetworkedField]
-    public SoundSpecifier CrashWarningSound = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/dropship_emergency.ogg", AudioParams.Default.WithVolume(-5));
+    public SoundSpecifier CrashWarningSound = new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/dropship_emergency.ogg", AudioParams.Default.WithVolume(-5));
 
     [DataField, AutoNetworkedField]
     public SoundSpecifier CrashSound = new SoundPathSpecifier("/Audio/_RMC14/Dropship/dropship_crash.ogg", AudioParams.Default.WithVolume(-1));

@@ -134,7 +134,7 @@ public sealed partial class CMDistressSignalRuleComponent : Component
     public TimeSpan AresGreetingDelay = TimeSpan.FromSeconds(5);
 
     [DataField]
-    public SoundSpecifier AresGreetingAudio = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/ares_online.ogg");
+    public SoundSpecifier AresGreetingAudio = new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/ares_online.ogg");
 
     [DataField]
     public bool AresGreetingDone;

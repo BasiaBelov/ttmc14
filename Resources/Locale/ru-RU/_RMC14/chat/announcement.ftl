@@ -32,7 +32,7 @@ rmc-announcement-ares-map = [color=#CECECE][font size=16][bold]UNS Almayer[/bold
 
     {$message}[/bold][/font][/color]
 
-rmc-announcement-cooldown = Подождите {$seconds} секунд
+rmc-announcement-cooldown = Подождите ещё {$seconds} секунд
 
 rmc-announcement-dropship-message = [color=#CECECE][font size=16][bold]Оповещение Десантного Корабля[/bold][/font][/color][color=red][font size=16][bold]
 

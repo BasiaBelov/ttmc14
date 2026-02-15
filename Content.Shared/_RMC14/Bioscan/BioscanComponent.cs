@@ -21,7 +21,7 @@ public sealed partial class BioscanComponent : Component
     public TimeSpan LastMarine;
 
     [DataField, AutoNetworkedField]
-    public SoundSpecifier MarineSound = new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/bioscan.ogg", AudioParams.Default.WithVolume(-6));
+    public SoundSpecifier MarineSound = new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/bioscan.ogg", AudioParams.Default.WithVolume(-6));
 
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField, AutoPausedField]
     public TimeSpan LastXeno;

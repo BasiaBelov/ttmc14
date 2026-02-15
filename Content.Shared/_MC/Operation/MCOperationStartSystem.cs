@@ -18,7 +18,7 @@ public sealed class MCOperationStartSystem : EntitySystem
                 _announce.AnnounceARESStaging(
                     null,
                     "Операция началась.",
-                    new SoundPathSpecifier("/Audio/_RMC14/Announcements/ARES/ares_online.ogg"),
+                    new SoundPathSpecifier("/Audio/_MC/Announcements/Ares/ares_online.ogg"),
                     "rmc-announcement-ares-online");
             });
     }

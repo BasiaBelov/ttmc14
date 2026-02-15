@@ -1464,17 +1464,17 @@ entities:
       marineHijackSound: !type:SoundPathSpecifier
         params:
           volume: -5
-        path: /Audio/_RMC14/Announcements/ARES/hijack.ogg
+        path: /Audio/_MC/Announcements/Ares/hijack.ogg
       generalQuartersSound: !type:SoundPathSpecifier
         path: /Audio/_RMC14/Announcements/ARES/GQfullcall.ogg
       unidentifledlifesignsSound: !type:SoundPathSpecifier
-        path: /Audio/_RMC14/Announcements/ARES/unidentified_lifesigns.ogg
+        path: /Audio/_MC/Announcements/Ares/unidentified_lifesigns.ogg
       lastLocked: {}
       attachmentPoints: []
       crashWarningSound: !type:SoundPathSpecifier
         params:
           volume: -5
-        path: /Audio/_RMC14/Announcements/ARES/dropship_emergency.ogg
+        path: /Audio/_MC/Announcements/Ares/dropship_emergency.ogg
       crashSound: !type:SoundPathSpecifier
         params:
           volume: -1

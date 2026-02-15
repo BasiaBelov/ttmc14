@@ -1,6 +1,6 @@
 rmc-alert-level-blue-elevated = Код Синий - Потенциальная вражеская активность на судне.
 rmc-alert-level-blue-lowered = Код Синий - Потенциальная вражеская активность на судне.
-rmc-alert-level-green = Код Зелёный. Ситуация урегулирована.
+rmc-alert-level-green = Код Зелёный - Ситуация урегулирована.
 rmc-alert-level-red-elevated = Код Красный - Обнаружена прямая угроза судну.
 rmc-alert-level-red-lowered = Код Красный - Обнаружена прямая угроза судну.
 rmc-alert-red-alert = Код Красный
